@@ -1,8 +1,12 @@
 <template>
   <div class="bg-ink-400 flex flex-col min-h-screen antialiased text-vanilla-300">
     <banner cta-link="https://deepsource.io/discover">
-      <span slot="text">Find issues in any open source repository and fix them automatically with Discover.</span>
-      <template slot="cta">LEARN MORE <ExternalLinkIcon class="h-4 md:h-6 ml-1 md:ml-2 text-vanilla-400"/></template>
+      <span slot="text"
+        >Find issues in any open source repository and fix them automatically with Discover.</span
+      >
+      <template slot="cta"
+        >LEARN MORE <ExternalLinkIcon class="h-4 md:h-6 ml-1 md:ml-2 text-vanilla-400"
+      /></template>
     </banner>
     <navbar :tag="tag"></navbar>
     <main class="flex flex-1">
